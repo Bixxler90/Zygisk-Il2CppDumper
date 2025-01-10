@@ -54,7 +54,7 @@ afterEvaluate {
                 include 'module.prop'
                 expand([
                         id         : magiskModuleId,
-                        name       : moduleName,
+                        name       : "Westland Dumper",
                         version    : moduleVersion,
                         versionCode: moduleVersionCode.toString(),
                         author     : moduleAuthor,
