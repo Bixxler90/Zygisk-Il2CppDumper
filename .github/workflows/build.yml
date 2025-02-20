@@ -20,7 +20,7 @@ jobs:
         chmod +x ./gradlew
         sed -i 's/moduleDescription = "/moduleDescription = "(${{ github.event.inputs.package_name }}) /g' module.gradle
         ./gradlew :module:assembleRelease
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: zygisk-il2cppdumper
         path: out/magisk_module_release/
