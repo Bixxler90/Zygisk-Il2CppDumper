@@ -5,6 +5,6 @@
 #ifndef ZYGISK_IL2CPPDUMPER_GAME_H
 #define ZYGISK_IL2CPPDUMPER_GAME_H
 
-#define GamePackageName "com.game.packagename"
+inline static std::vector<const char*> games_list = {"com.heliogames.pirates","com.heliogames.westland"};
 
 #endif //ZYGISK_IL2CPPDUMPER_GAME_H
